@@ -5,6 +5,6 @@ sceneTreePerspectives: 000000ff0000000100000002000000c0000000fa01000000020100000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 0 "../../../Water robot/controllers/ROV_3/ROV_3.py"
+textFiles: 0 "controllers/ROV_controller/ROV_controller.py"
 consoles: Console:All:All
 renderingDevicePerspectives: ROV:camera;1;0.0688477;0;0

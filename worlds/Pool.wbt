@@ -1238,7 +1238,7 @@ DEF ROV Robot {
     damping Damping {
     }
   }
-  controller "ROV_3"
+  controller "ROV_controller"
 }
 AdvertisingBoard {
   translation 0 0.5 0
