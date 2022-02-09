@@ -1,0 +1,830 @@
+#VRML_OBJ R2021a utf8
+DEF ROV Robot {
+  translation 0.0003354298586595078 0.0885584490520672 0.9800162618600108
+  rotation -0.0218278878195283 0.18834263606536353 0.9818607817574181 -0.004211034759804867
+  children [
+    DEF frame Transform {
+      children [
+        DEF bottom_frame Solid {
+          translation 0 -0.05715 0
+          children [
+            DEF length_side_tube_right Solid {
+              translation 0.06985 0 0
+              rotation 1 0 0 -1.5708
+              children [
+                DEF shape_1 Shape {
+                  appearance DEF PVC_color PBRAppearance {
+                    baseColor 0.698 0.745 0.71
+                    roughness 1
+                    metalness 0
+                  }
+                  geometry Cylinder {
+                    height 0.3048
+                    radius 0.00635
+                  }
+                }
+              ]
+            }
+            DEF length_side_tube_left Solid {
+              translation -0.06985 0 0
+              rotation 1 0 0 -1.5708
+              children [
+                Shape {
+                  appearance DEF PVC_color PBRAppearance {
+                    baseColor 0.698 0.745 0.71
+                    roughness 1
+                    metalness 0
+                  }
+                  geometry Cylinder {
+                    height 0.3048
+                    radius 0.00635
+                  }
+                }
+              ]
+              name "solid(1)"
+            }
+            DEF width_side_tube_rear Solid {
+              translation 0 0 0.14605
+              rotation 0.5773509358554485 0.5773509358554485 0.5773489358556708 -2.094395307179586
+              children [
+                DEF shape_2 Shape {
+                  appearance DEF PVC_color PBRAppearance {
+                    baseColor 0.698 0.745 0.71
+                    roughness 1
+                    metalness 0
+                  }
+                  geometry Cylinder {
+                    height 0.127
+                    radius 0.00635
+                  }
+                }
+              ]
+              name "solid(2)"
+            }
+            DEF width_side_tube_front Solid {
+              translation 0 0 -0.14605
+              rotation 0.5773509358554485 0.5773509358554485 0.5773489358556708 -2.094395307179586
+              children [
+                Shape {
+                  appearance DEF PVC_color PBRAppearance {
+                    baseColor 0.698 0.745 0.71
+                    roughness 1
+                    metalness 0
+                  }
+                  geometry Cylinder {
+                    height 0.127
+                    radius 0.00635
+                  }
+                }
+              ]
+              name "solid(3)"
+            }
+          ]
+          name "bottom_frame_solid"
+        }
+        DEF top_frame Solid {
+          translation 0 0.05715 0
+          children [
+            DEF length_side_tube_right Solid {
+              translation 0.06985 0 0
+              rotation 1 0 0 -1.5708
+              children [
+                Shape {
+                  appearance DEF PVC_color PBRAppearance {
+                    baseColor 0.698 0.745 0.71
+                    roughness 1
+                    metalness 0
+                  }
+                  geometry Cylinder {
+                    height 0.3048
+                    radius 0.00635
+                  }
+                }
+              ]
+            }
+            DEF length_side_tube_left Solid {
+              translation -0.06985 0 0
+              rotation 1 0 0 -1.5708
+              children [
+                Shape {
+                  appearance DEF PVC_color PBRAppearance {
+                    baseColor 0.698 0.745 0.71
+                    roughness 1
+                    metalness 0
+                  }
+                  geometry Cylinder {
+                    height 0.3048
+                    radius 0.00635
+                  }
+                }
+              ]
+              name "solid(1)"
+            }
+            DEF width_side_tube_rear Solid {
+              translation 0 0 0.14605
+              rotation 0.5773509358554485 0.5773509358554485 0.5773489358556708 -2.094395307179586
+              children [
+                Shape {
+                  appearance DEF PVC_color PBRAppearance {
+                    baseColor 0.698 0.745 0.71
+                    roughness 1
+                    metalness 0
+                  }
+                  geometry Cylinder {
+                    height 0.127
+                    radius 0.00635
+                  }
+                }
+              ]
+              name "solid(2)"
+            }
+            DEF width_side_tube_front Solid {
+              translation 0 0 -0.14605
+              rotation 0.5773509358554485 0.5773509358554485 0.5773489358556708 -2.094395307179586
+              children [
+                Shape {
+                  appearance DEF PVC_color PBRAppearance {
+                    baseColor 0.698 0.745 0.71
+                    roughness 1
+                    metalness 0
+                  }
+                  geometry Cylinder {
+                    height 0.127
+                    radius 0.00635
+                  }
+                }
+              ]
+              name "solid(3)"
+            }
+          ]
+          name "solid(1)"
+        }
+        DEF frame_holders Solid {
+          children [
+            DEF right Solid {
+              translation 0.06985 0 0
+              children [
+                DEF shape_3 Shape {
+                  appearance USE PVC_color
+                  geometry Cylinder {
+                    height 0.1016
+                    radius 0.00635
+                  }
+                }
+              ]
+            }
+            DEF left Solid {
+              translation -0.06985 0 0
+              children [
+                Shape {
+                  appearance USE PVC_color
+                  geometry Cylinder {
+                    height 0.1016
+                    radius 0.00635
+                  }
+                }
+              ]
+              name "solid(1)"
+            }
+            DEF rear Solid {
+              translation 0 0 0.14605
+              children [
+                Shape {
+                  appearance USE PVC_color
+                  geometry Cylinder {
+                    height 0.1016
+                    radius 0.00635
+                  }
+                }
+              ]
+              name "solid(2)"
+            }
+            DEF front Solid {
+              translation 0 0 -0.14605
+              children [
+                Shape {
+                  appearance USE PVC_color
+                  geometry Cylinder {
+                    height 0.1016
+                    radius 0.00635
+                  }
+                }
+              ]
+              name "solid(3)"
+            }
+          ]
+        }
+        DEF bouyants Solid {
+          children [
+            DEF bootm_right Solid {
+              translation 0.06985 -0.0762 0
+              rotation 1 0 0 -1.5707953071795862
+              children [
+                DEF shape_4 Shape {
+                  appearance USE PVC_color
+                  geometry Capsule {
+                    height 0.2794
+                    radius 0.0127
+                  }
+                }
+              ]
+            }
+            DEF bootm_left Solid {
+              translation -0.06985 -0.0762 0
+              rotation 1 0 0 -1.5707953071795862
+              children [
+                DEF shape_4 Shape {
+                  appearance USE PVC_color
+                  geometry Capsule {
+                    height 0.2794
+                    radius 0.0127
+                  }
+                }
+              ]
+              name "solid(1)"
+            }
+            DEF top_right Solid {
+              translation -0.06985 0.0889 0
+              rotation 1 0 0 -1.5707953071795862
+              children [
+                DEF shape_5 Shape {
+                  appearance USE PVC_color
+                  geometry Capsule {
+                    height 0.254
+                    radius 0.0254
+                  }
+                }
+              ]
+              name "solid(2)"
+            }
+            DEF top_left Solid {
+              translation 0.06985 0.0889 0
+              rotation 1 0 0 -1.5707953071795862
+              children [
+                Shape {
+                  appearance USE PVC_color
+                  geometry Capsule {
+                    height 0.254
+                    radius 0.0254
+                  }
+                }
+              ]
+              name "solid(3)"
+            }
+          ]
+          name "solid(2)"
+        }
+      ]
+    }
+    DEF motors Solid {
+      children [
+        DEF yaw Transform {
+          translation 0.1 0 0
+          rotation 0.5773489358556708 0.5773509358554485 -0.5773509358554485 -2.094395307179586
+          children [
+            DEF motorshape Group {
+              children [
+                Shape {
+                  appearance BrushedAluminium {
+                  }
+                  geometry Cylinder {
+                    height 0.05
+                    radius 0.02
+                    subdivision 24
+                  }
+                }
+                Transform {
+                  translation 0 0.025 0
+                  children [
+                    Shape {
+                      appearance BrushedAluminium {
+                      }
+                      geometry Cylinder {
+                        height 0.02
+                        radius 0.001
+                        subdivision 24
+                      }
+                    }
+                  ]
+                }
+                Transform {
+                  translation 0 -0.026 0
+                  children [
+                    Shape {
+                      appearance MetalPipePaint {
+                      }
+                      geometry Cylinder {
+                        height 0.001
+                        radius 0.02
+                        subdivision 24
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+        DEF surge Transform {
+          translation -0.1 0 0
+          rotation 0.5773489358556708 0.5773509358554485 -0.5773509358554485 -2.094395307179586
+          children [
+            USE motorshape
+          ]
+        }
+        DEF heave Transform {
+          rotation 0.70710628118604 6.106782428407177e-07 0.7071072811864377 -3.1415853071795863
+          children [
+            USE motorshape
+          ]
+        }
+      ]
+      name "motors solid"
+    }
+    DEF YAW Propeller {
+      shaftAxis 0 1 0
+      centerOfThrust 0.1 0 -0.04
+      fastHelixThreshold 1.5
+      device RotationalMotor {
+        name "yaw motor"
+        maxVelocity 30
+        maxTorque 1
+      }
+      fastHelix DEF FAST_HELIX Solid {
+        translation 0.1 0 -0.04
+        rotation 1 0 0 1.5708
+        scale 0.18 0.18 0.18
+        children [
+          DEF FAST_MAIN_HELIX_SHAPE Shape {
+            appearance DEF FAST_HELIX_APPEARANCE PBRAppearance {
+              baseColorMap ImageTexture {
+                url [
+                  "../textures/blurred_helix.png"
+                ]
+              }
+              transparency 0.5
+              roughness 0.5
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.003
+              radius 0.145
+              side FALSE
+              subdivision 24
+            }
+          }
+        ]
+        name "fast helix"
+      }
+      slowHelix DEF SLOW_HELIX Solid {
+        translation 0.1 0 -0.04
+        rotation -0.643233671253598 -0.41533592174772366 0.6432313085287337 3.9289034413976163
+        scale 0.18 0.18 0.18
+        children [
+          DEF SLOW_MAIN_HELIX_TRANSFORM Transform {
+            scale 1.5 1.5 1.5
+            children [
+              DEF SLOW_MAIN_HELIX_GROUP Group {
+                children [
+                  DEF TIP Transform {
+                    rotation 0 0 1 1.5708
+                    scale 2 2 2
+                    children [
+                      Shape {
+                        appearance Rubber {
+                        }
+                        geometry Capsule {
+                          height 0.02
+                          radius 0.01
+                        }
+                      }
+                    ]
+                  }
+                  DEF INSERT Transform {
+                    translation -0.0299985 0.000299885 0
+                    rotation 0 0 1 1.5608
+                    scale 5 1 5
+                    children [
+                      Shape {
+                        appearance Rubber {
+                        }
+                        geometry Cylinder {
+                          height 0.07
+                          radius 0.004
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADE1 Transform {
+                    translation -0.01 0.04 0
+                    rotation 0 1 0 -0.523595307179586
+                    children [
+                      DEF BLADE_SHAPE Shape {
+                        appearance Rubber {
+                        }
+                        geometry Box {
+                          size 0.06 0.06 0.004
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADE2 Transform {
+                    translation -0.0101704 -0.0149471 0.0262451
+                    rotation 0.8814118335171858 -0.4562539138218564 0.12225197690880428 -1.1598053071795862
+                    children [
+                      DEF BLADE_SHAPE Shape {
+                        appearance Rubber {
+                        }
+                        geometry Box {
+                          size 0.06 0.06 0.004
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADE3 Transform {
+                    translation -0.0134898 -0.0150793 -0.0288338
+                    rotation 0.8814127531683258 0.4562518722307874 0.12225296576416202 1.1598
+                    children [
+                      DEF BLADE_SHAPE Shape {
+                        appearance Rubber {
+                        }
+                        geometry Box {
+                          size 0.06 0.06 0.004
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADETIP1 Transform {
+                    translation -0.01 0.07 0
+                    rotation -0.9351138487168261 -0.25056095946412593 -0.2505619594639642 1.63783
+                    children [
+                      DEF tip Shape {
+                        appearance Rubber {
+                        }
+                        geometry Cylinder {
+                          height 0.004
+                          radius 0.03
+                          subdivision 24
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADETIP2 Transform {
+                    translation -0.00628804 -0.0306827 0.0514904
+                    rotation 0.6947409354408542 0.35963096658111415 -0.6228969421169929 0.736199
+                    children [
+                      DEF tip Shape {
+                        appearance Rubber {
+                        }
+                        geometry Cylinder {
+                          height 0.004
+                          radius 0.03
+                          subdivision 24
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADETIP3 Transform {
+                    translation -0.0173721 -0.0308149 -0.0540791
+                    rotation 0.9636116709319705 0.23149392094611274 -0.13365295435825897 2.63623
+                    children [
+                      DEF tip Shape {
+                        appearance Rubber {
+                        }
+                        geometry Cylinder {
+                          height 0.004
+                          radius 0.03
+                          subdivision 24
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+        name "slow helix"
+      }
+    }
+    DEF SURGE Propeller {
+      shaftAxis 0 1 0
+      centerOfThrust -0.1 0 -0.04
+      fastHelixThreshold 1.5
+      device RotationalMotor {
+        name "surge motor"
+        maxVelocity 30
+        maxTorque 1
+      }
+      fastHelix DEF FAST_HELIX Solid {
+        translation -0.1 0 -0.04
+        rotation 1 0 0 1.5708
+        scale 0.18 0.18 0.18
+        children [
+          DEF FAST_MAIN_HELIX_SHAPE Shape {
+            appearance DEF FAST_HELIX_APPEARANCE PBRAppearance {
+              baseColorMap ImageTexture {
+                url [
+                  "../textures/blurred_helix.png"
+                ]
+              }
+              transparency 0.5
+              roughness 0.5
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.003
+              radius 0.145
+              side FALSE
+              subdivision 24
+            }
+          }
+        ]
+        name "fast helix"
+      }
+      slowHelix DEF SLOW_HELIX Solid {
+        translation -0.1 0 -0.04
+        rotation -0.643233671253598 -0.41533592174772366 0.6432313085287337 3.9289034413976163
+        scale 0.18 0.18 0.18
+        children [
+          DEF SLOW_MAIN_HELIX_TRANSFORM Transform {
+            scale 1.5 1.5 1.5
+            children [
+              DEF SLOW_MAIN_HELIX_GROUP Group {
+                children [
+                  DEF TIP Transform {
+                    rotation 0 0 1 1.5708
+                    scale 2 2 2
+                    children [
+                      Shape {
+                        appearance Rubber {
+                        }
+                        geometry Capsule {
+                          height 0.02
+                          radius 0.01
+                        }
+                      }
+                    ]
+                  }
+                  DEF INSERT Transform {
+                    translation -0.0299985 0.000299885 0
+                    rotation 0 0 1 1.5608
+                    scale 5 1 5
+                    children [
+                      Shape {
+                        appearance Rubber {
+                        }
+                        geometry Cylinder {
+                          height 0.07
+                          radius 0.004
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADE1 Transform {
+                    translation -0.01 0.04 0
+                    rotation 0 1 0 -0.523595307179586
+                    children [
+                      DEF BLADE_SHAPE Shape {
+                        appearance Rubber {
+                        }
+                        geometry Box {
+                          size 0.06 0.06 0.004
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADE2 Transform {
+                    translation -0.0101704 -0.0149471 0.0262451
+                    rotation 0.8814118335171858 -0.4562539138218564 0.12225197690880428 -1.1598053071795862
+                    children [
+                      DEF BLADE_SHAPE Shape {
+                        appearance Rubber {
+                        }
+                        geometry Box {
+                          size 0.06 0.06 0.004
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADE3 Transform {
+                    translation -0.0134898 -0.0150793 -0.0288338
+                    rotation 0.8814127531683258 0.4562518722307874 0.12225296576416202 1.1598
+                    children [
+                      DEF BLADE_SHAPE Shape {
+                        appearance Rubber {
+                        }
+                        geometry Box {
+                          size 0.06 0.06 0.004
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADETIP1 Transform {
+                    translation -0.01 0.07 0
+                    rotation -0.9351138487168261 -0.25056095946412593 -0.2505619594639642 1.63783
+                    children [
+                      DEF tip Shape {
+                        appearance Rubber {
+                        }
+                        geometry Cylinder {
+                          height 0.004
+                          radius 0.03
+                          subdivision 24
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADETIP2 Transform {
+                    translation -0.00628804 -0.0306827 0.0514904
+                    rotation 0.6947409354408542 0.35963096658111415 -0.6228969421169929 0.736199
+                    children [
+                      DEF tip Shape {
+                        appearance Rubber {
+                        }
+                        geometry Cylinder {
+                          height 0.004
+                          radius 0.03
+                          subdivision 24
+                        }
+                      }
+                    ]
+                  }
+                  DEF BLADETIP3 Transform {
+                    translation -0.0173721 -0.0308149 -0.0540791
+                    rotation 0.9636116709319705 0.23149392094611274 -0.13365295435825897 2.63623
+                    children [
+                      DEF tip Shape {
+                        appearance Rubber {
+                        }
+                        geometry Cylinder {
+                          height 0.004
+                          radius 0.03
+                          subdivision 24
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+        name "slow helix"
+      }
+    }
+    DEF Heave Propeller {
+      shaftAxis 0 1 0
+      centerOfThrust 0 -0.04 0
+      fastHelixThreshold 1.5
+      device RotationalMotor {
+        name "heave motor"
+        maxVelocity 30
+        maxTorque 1
+      }
+      fastHelix Solid {
+        translation 0 -0.04 0
+        rotation 0 1 0 1.5708
+        scale 0.18 0.18 0.18
+        children [
+          USE FAST_MAIN_HELIX_SHAPE
+        ]
+      }
+      slowHelix Solid {
+        translation 0 -0.04 0
+        rotation 0 0 -1 1.5708
+        scale 0.18 0.18 0.18
+        children [
+          USE SLOW_MAIN_HELIX_TRANSFORM
+        ]
+      }
+    }
+  ]
+  name "ROV"
+  immersionProperties [
+    ImmersionProperties {
+      fluidName "water"
+      dragForceCoefficients 0.1 0 0
+      dragTorqueCoefficients 0.001 0 0
+      viscousResistanceTorqueCoefficient 0.005
+    }
+  ]
+  boundingObject Group {
+    children [
+      DEF bottom_length Transform {
+        translation 0.06985 -0.05715 0
+        rotation 1 0 0 1.5708
+        children [
+          USE shape_1
+        ]
+      }
+      DEF bottom_length Transform {
+        translation -0.06985 -0.05715 0
+        rotation 1 0 0 1.5708
+        children [
+          USE shape_1
+        ]
+      }
+      DEF top_length Transform {
+        translation 0.06985 0.05715 0
+        rotation 1 0 0 1.5708
+        children [
+          USE shape_1
+        ]
+      }
+      DEF top_length Transform {
+        translation -0.06985 0.05715 0
+        rotation 1 0 0 1.5708
+        children [
+          USE shape_1
+        ]
+      }
+      DEF bottom_width Transform {
+        translation 0 -0.05715 0.14605
+        rotation -0.5773509358554485 -0.5773509358554485 0.5773489358556708 -2.094395307179586
+        children [
+          USE shape_2
+        ]
+      }
+      DEF bottom_width Transform {
+        translation 0 -0.05715 -0.14605
+        rotation -0.5773509358554485 -0.5773509358554485 0.5773489358556708 -2.094395307179586
+        children [
+          USE shape_2
+        ]
+      }
+      DEF top_width Transform {
+        translation 0 0.05715 0.14605
+        rotation -0.5773509358554485 -0.5773509358554485 0.5773489358556708 -2.094395307179586
+        children [
+          USE shape_2
+        ]
+      }
+      DEF top_width Transform {
+        translation 0 0.05715 -0.14605
+        rotation -0.5773509358554485 -0.5773509358554485 0.5773489358556708 -2.094395307179586
+        children [
+          USE shape_2
+        ]
+      }
+      DEF holder_rear Transform {
+        translation 0 0 0.14605
+        children [
+          USE shape_3
+        ]
+      }
+      DEF holder_front Transform {
+        translation 0 0 -0.14605
+        children [
+          USE shape_3
+        ]
+      }
+      DEF holder_right Transform {
+        translation 0.06985 0 0
+        children [
+          USE shape_3
+        ]
+      }
+      DEF holder_left Transform {
+        translation -0.06985 0 0
+        children [
+          USE shape_3
+        ]
+      }
+      DEF bottom_left_bouyant Transform {
+        translation 0.06985 -0.0762 0
+        rotation 1 0 0 -1.5707953071795862
+        children [
+          USE shape_4
+        ]
+      }
+      DEF bottom_right_bouyant Transform {
+        translation -0.06985 -0.0762 0
+        rotation 1 0 0 -1.5707953071795862
+        children [
+          USE shape_4
+        ]
+      }
+      DEF top_right_bouyant Transform {
+        translation 0.0698 0.0889 0
+        rotation 1 0 0 -1.5707953071795862
+        children [
+          USE shape_5
+        ]
+      }
+      DEF top_left_bouyant Transform {
+        translation -0.0698 0.0889 0
+        rotation 1 0 0 -1.5707953071795862
+        children [
+          USE shape_5
+        ]
+      }
+    ]
+  }
+  physics Physics {
+    density 900
+    damping Damping {
+    }
+  }
+  controller "ROV_2"
+}
